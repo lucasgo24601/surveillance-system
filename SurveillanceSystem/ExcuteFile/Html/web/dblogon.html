@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>PHP連結MySQL登錄表單</title>
+</head>
+
+<body>
+
+<form method="POST" action="dblogon.php">
+  <div align="center"><center><table border="0" width="80%"
+  cellspacing="1">
+    <tr>
+      <td width="11%" bgcolor="#C0C0C0"><strong>帳號</strong></td>
+      <td width="89%"><input type="text" name="username" size="10"></td>
+    </tr>
+    <tr>
+      <td width="11%" bgcolor="#C0C0C0"><strong>密碼</strong></td>
+      <td width="89%"><input type="password" name="password" size="10"></td>
+    </tr>
+   <tr>
+      <td width="11%" bgcolor="#C0C0C0"><strong>主機</strong></td>
+      <td width="89%"><input type="text" name="host" value="localhost" size="60"></td>
+    </tr>
+    <tr>
+      <td width="11%" bgcolor="#C0C0C0"><strong>資料庫</strong></td>
+      <td width="89%"><input type="text" name="dbname" size="20"></td>
+    </tr>
+    <tr>
+      <td width="11%"></td>
+      <td width="89%"><input type="submit" value="送出" name="send">
+      <input type="reset" value="重填"  name="cancel" ></td>
+    </tr>
+  </table>
+  </center></div>
+</form>
+</body>
+</html>
