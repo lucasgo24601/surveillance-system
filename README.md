@@ -1,5 +1,3 @@
-以上程式由 Visual Studio  進行開發，皆附有Demo。
-
 # SurveillanceSystem：
 該程式由大學專題實作，基本上大多數由個人完成，其中主要功能分為三類：
 
